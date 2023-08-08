@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url(../5a3ead5b5be7825600762f8fed4d3e3e.jpg);
+}
+
+body h1 {
+    font-size: 50px;
+}
+
+.victoria {
+    visibility: hidden;
+    color: chartreuse;
+}
+
+.tablero {
+    margin: auto;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    cursor: pointer;
+    width: 30.3%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+}
+
+.btn:hover {
+    background-color: rgba(230, 229, 229, 0.662);
+}
